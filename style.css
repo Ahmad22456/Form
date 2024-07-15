@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 50em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.grid {
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(11, 1fr);
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-color: olive;
+  border-radius: 6px;
+}
+
+.nameLabel {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  align-self: center;
+}
+
+#firstName {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin-right: 5px;
+}
+
+#lastName {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.dateLabel {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  align-self: center;
+}
+
+#birth {
+  grid-column: 1/3;
+  grid-row: 4/5;
+}
+
+.emailLabel {
+  grid-column: 1/3;
+  grid-row: 5/6;
+  align-self: center;
+}
+
+#email {
+  grid-column: 1/3;
+  grid-row: 6/7;
+}
+
+.insuranceLabel {
+  grid-column: 1/3;
+  grid-row: 7/8;
+  align-self: center;
+}
+
+#insurance {
+  grid-column: 1/3;
+  grid-row: 8/9;
+}
+
+.grid p {
+  grid-column: 1/3;
+  grid-row: 9/10;
+  align-self: center;
+}
+
+.terms {
+  grid-column: 1/3;
+  grid-row: 10/11;
+}
+
+#term {
+  margin-right: 5px;
+}
+
+.termsLabel span {
+  color: olive;
+}
+
+.grid button {
+  grid-column: 1/3;
+  grid-row: 11/12;
+  color: white;
+  background-color: olive;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+}

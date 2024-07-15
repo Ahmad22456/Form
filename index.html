@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Wellness Center Membership</h1>
+        <h1>Registration Form</h1>
+      </div>
+      <form class="grid">
+        <label class="nameLabel" for="">Full Name</label>
+        <input id="firstName" placeholder="First" type="text" />
+        <input id="lastName" placeholder="Last" type="text" />
+        <label class="dateLabel" for="">Birth Date</label>
+        <input id="birth" type="date" />
+        <label class="emailLabel" for="">Email Address</label>
+        <input id="email" type="text" />
+        <label class="insuranceLabel" for="">Insurance</label>
+        <input id="insurance" type="text" />
+        <p>Terms of Service*</p>
+        <div class="terms">
+          <input id="term" type="checkbox" />
+          <label class="termsLabel" for=""
+            >I agree to the <span>terms of service</span></label
+          >
+        </div>
+        <button type="submit">Submit Form</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
